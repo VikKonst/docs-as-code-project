@@ -48,6 +48,7 @@ nav:
     - Документация для приложения Нотсапп:
       - Спецификация приложения Нотсапп: works/notesapp-docs/specification.md
       - Пользовательский сценарий «Удаление заметки»: works/notesapp-docs/user-scenario.md
+      - Диаграмма последовательности «Удаление заметки»: works/notesapp-docs/sequence-diagram.md
       - API Specification Swagger: works/notesapp-docs/swagger-api.md
       - API Specification Redoc: works/notesapp-docs/redoc-api.md
 
@@ -72,6 +73,8 @@ plugins:
   - glightbox
   - swagger-ui-tag
   - redoc-tag
+  - plantuml:
+      puml_url: https://www.plantuml.com/plantuml/
 
 extra_css:
   - stylesheets/extra.css
