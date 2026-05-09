@@ -48,6 +48,8 @@ nav:
     - Документация для приложения Нотсапп:
       - Спецификация приложения Нотсапп: works/notesapp-docs/specification.md
       - Пользовательский сценарий «Удаление заметки»: works/notesapp-docs/user-scenario.md
+      - API Specification Swagger: works/notesapp-docs/swagger-api.md
+      - API Specification Redoc: works/notesapp-docs/redoc-api.md
 
 markdown_extensions: # Расширения markdown
   - admonition # Поддержка информационных панелей (сообщений типа «Внимание», «Совет», «Примечание», etc.)
@@ -68,3 +70,8 @@ markdown_extensions: # Расширения markdown
 plugins:
   - search
   - glightbox
+  - swagger-ui-tag
+  - redoc-tag
+
+extra_css:
+  - stylesheets/extra.css
