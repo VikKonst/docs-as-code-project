@@ -24,3 +24,116 @@
   font-size: 0.8em;
   opacity: 0.6;
 }
+
+[data-md-color-scheme="default"] {
+    --md-primary-fg-color: #0F766E;
+    --md-accent-fg-color: #10B981;
+    --md-default-bg-color: #F5F7F7;
+    --md-footer-bg-color: #134E4A;
+    --md-footer-bg-color--dark: #0F3D3A;
+    --md-default-fg-color: #1F2937;
+    --md-default-fg-color--light: #4B5563;
+    --md-default-fg-color--lighter: #6B7280;
+    --md-typeset-a-color: #0F766E;
+    --md-default-fg-color--lightest: rgba(0, 0, 0, 0.12);
+}
+
+[data-md-color-scheme="slate"] {
+    --md-primary-fg-color: #0F766E;
+    --md-accent-fg-color: #34D399;
+    --md-default-bg-color: #1F2727;
+    --md-footer-bg-color: #134E4A;
+    --md-footer-bg-color--dark: #0F3D3A;
+    --md-default-fg-color: #E6ECEC;
+    --md-default-fg-color--light: #B8C2C2;
+    --md-default-fg-color--lighter: #8FA1A1;
+    --md-typeset-a-color: #4FD1C5;
+    --md-default-fg-color--lightest: rgba(255, 255, 255, 0.12);
+}
+
+[data-md-color-scheme="slate"] .md-nav__link--active,
+[data-md-color-scheme="slate"] .md-nav__link:focus,
+[data-md-color-scheme="slate"] .md-nav__link:hover {
+    color: #4FD1C5;
+}
+[data-md-color-scheme="slate"] .md-typeset a {
+    color: #4FD1C5;
+}
+[data-md-color-scheme="slate"] .md-typeset a:hover {
+    color: #67E8F9;
+}
+
+.md-typeset {
+  font-size: 0.82rem;
+  line-height: 1.75;
+  letter-spacing: 0;
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6 {
+  letter-spacing: 0;
+  color: var(--md-default-fg-color);
+}
+
+.md-typeset h1 {
+  font-size: 1.85rem;
+  font-weight: 490;
+  line-height: 1.25;
+}
+
+.md-typeset h2 {
+  font-size: 1.32rem;
+  font-weight: 460;
+  line-height: 1.35;
+}
+
+.md-typeset h3 {
+  font-size: 1.12rem;
+  font-weight: 440;
+  line-height: 1.4;
+}
+
+.md-typeset h4 {
+  font-size: 0.98rem;
+  font-weight: 420;
+  line-height: 1.45;
+}
+
+.md-typeset h5,
+.md-typeset h6 {
+  font-size: 0.86rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.md-typeset p,
+.md-typeset li {
+  color: var(--md-default-fg-color);
+}
+
+.md-typeset strong {
+  font-weight: 650;
+}
+
+.md-nav {
+  font-size: 0.72rem;
+  line-height: 1.45;
+}
+
+.md-nav__title {
+  font-weight: 650;
+  letter-spacing: 0;
+}
+
+.md-nav__link {
+  color: var(--md-default-fg-color--light);
+}
+
+.md-nav__link:hover,
+.md-nav__link--active {
+  color: var(--md-typeset-a-color);
+}
